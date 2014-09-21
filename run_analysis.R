@@ -16,7 +16,6 @@ mergeX <- rbind(trainX, testX)
 mergeSubject <- rbind(trainSubject, testSubject)
 mergeActivity <- rbind(trainActivity, testActivity)
 
-
 # label data set with descriptive variable names:
 # read feature names
 feat <- read.table("features.txt")
